@@ -1,0 +1,7 @@
+version: "3"
+services:
+  container_name: server
+  build:
+    dockerfile: Dockerfile 
+  ports:
+    - 5555:5000
